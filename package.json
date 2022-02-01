@@ -1,8 +1,9 @@
 {
   "name": "esi-ql",
   "version": "1.0.0",
-  "description": "",
+  "description": "GraphQL wrapper for EVE Online's ESI API",
   "main": "index.js",
+  "repository": "git@github.com/j-nas/esi-ql.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "gts lint",
@@ -14,8 +15,14 @@
     "pretest": "npm run compile",
     "posttest": "npm run lint"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "eve",
+    "esi",
+    "graphql",
+    "api",
+    "eve online"
+  ],
+  "author": "Jon Naske",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.6.2",
